@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "star-shop-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/starShop/StarShopWebPart.js",
+          "manifest": "./src/webparts/starShop/StarShopWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "StarShopWebPartStrings": "lib/webparts/starShop/loc/{locale}.js"
+  }
+}
